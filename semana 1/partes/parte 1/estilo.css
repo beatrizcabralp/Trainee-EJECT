@@ -1,0 +1,47 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body
+{
+    padding: 0px 10px 0px 10px;
+}
+
+h1
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+
+.banner
+{
+    width: 100%;
+}
+
+.sobre
+{
+    background-color: lightgray;
+    text-align: center;
+    
+}
+
+sobre, h1
+{
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.vermelho
+{
+    color: red;
+}
