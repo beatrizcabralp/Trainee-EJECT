@@ -47,12 +47,6 @@ h1
 }
 
 
-p
-{
-    padding-top: 10px;
-    padding-bottom: 20px;
-    font-size: 22px;
-}
 
 .banner
 {
@@ -69,8 +63,18 @@ p
 
 .sobre
 {
-    background-color: lightgray;
+    
     text-align: center;
+    
+}
+
+.sobre p
+{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+   
     
 }
 
@@ -78,12 +82,22 @@ h1.sobre
 {
     padding-top: 80px;
     padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
    
 }
 
 .vermelho
 {
     color: red;
+}
+
+.utensilios
+{
+    width: 120px;
+    padding-left: 350px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 .beneficios
