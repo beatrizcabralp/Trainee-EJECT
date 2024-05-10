@@ -1,0 +1,175 @@
+header
+{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+nav
+{
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li
+{
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a
+{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.caixa
+{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+form
+{
+    padding-left: 350px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.informacoes
+{
+    padding-bottom: 5px;
+    font-size: 21px;
+}
+
+.espaco
+{
+    width: 500px;
+    height: 35px;
+    padding-left: 15px;
+    font-size: 15px;
+
+}
+
+
+form textarea
+{
+    width: 500px;
+    height: 90px;
+}
+
+form h4
+{
+    padding-bottom: 5px;
+    padding-top: 30px;
+}
+
+.contato
+{
+    font-size: 19px;
+     
+}
+
+.contato p
+{
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+    
+    
+}
+
+.contato-preferencia
+{
+    display: flex;
+    bottom: 20px;
+}
+
+.contato h4
+{
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-size: 21px;
+}
+
+.horario
+{
+    padding-bottom: 20px;
+}
+
+.horario h4
+{
+    
+    padding-top: 30px;
+    font-size: 21px;
+}
+
+.preferencia
+{
+    font-size: 21px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.cadastrar
+{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.botao-cadastro
+{
+    font-size: 21px;
+    text-align: center;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    border-color: orange;
+    background-color: orange;
+    color: #FFFFFF;
+    
+}
+ .tabela
+ {
+    padding-top: 10px;
+ }
+
+ .tabela table
+ {
+    margin: 20px 0 40px;
+ }
+
+thead
+{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+.tabela td, th
+{
+    border: 1px solid black;
+    padding: 15px;
+   
+}
+
+
+
+footer
+{
+    text-align: center;
+    background: url(../imagens/bg.jpg);
+    padding: 40PX 0;
+}
+
+.copyright
+{
+  color: #FFFFFF;
+  font-size: 13px;
+  margin-top: 20px;
+
+}
