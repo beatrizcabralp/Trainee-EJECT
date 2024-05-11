@@ -38,6 +38,10 @@ nav a
 body
 {
     padding: 0px 10px 0px 10px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 0;
+  
+
 }
 
 h1
@@ -61,6 +65,11 @@ h1
     margin: 0 auto;
 }
 
+main
+{
+    align-items: center;
+}
+
 .sobre
 {
     
@@ -73,16 +82,15 @@ h1
     padding-top: 10px;
     padding-bottom: 20px;
     font-size: 21px;
-    font-family: Arial, Helvetica, sans-serif;
-   
+    text-align: left;
     
 }
 
 h1.sobre
 {
     padding-top: 80px;
-    padding-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+    
    
 }
 
@@ -93,11 +101,13 @@ h1.sobre
 
 .utensilios
 {
-    width: 120px;
+    width: 185px;
     padding-left: 350px;
     float: left;
-    margin-bottom: 20px;
+    margin-top: 16px;
+    margin-bottom: 90px;
     margin-right: 20px;
+    
 }
 
 .beneficios
