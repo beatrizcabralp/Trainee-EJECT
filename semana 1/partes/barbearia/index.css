@@ -8,6 +8,7 @@
 /**********header********/
 header
 {
+    width: 100%;
     background-color: #BBBBBB;
     padding: 20px 0;
 }
@@ -40,7 +41,7 @@ body
 {
     padding: 0px 10px 0px 10px;
     font-family: "DM Sans", sans-serif;
-    font-weight: 0;
+    font-weight: 200;
   
 
 }
@@ -49,12 +50,20 @@ h1
 {
     padding-top: 10px;
     padding-bottom: 10px;
+    
 }
 
 
 .banner
 {
     width: 100%;
+}
+
+a:hover
+{
+    color: black;
+    background-color: white;
+    
 }
 
 /***********final do header************/
@@ -91,9 +100,10 @@ main
     
 }
 
-h1, .sobre
+.sobre h1
 {
     padding-top: 30px;
+    
 }
 
 
@@ -129,18 +139,20 @@ h1, .sobre
     margin: 0 auto;
 }
 
-h3, .mapa
+.mapa h3
 {
-    padding-top: 60px;
+    padding-top: 20px;
     padding-bottom: 20px;
     font-size: 40px;
+    background: linear-gradient(#FEFEFE, #88888888);
 }
 
-p, .mapa
+.mapa p
 {
 
     padding-bottom: 20px;
     font-size: 21px;
+    background:  #88888888;
 
 }
 
@@ -204,8 +216,9 @@ h2, .beneficios
 
 .beneficios-img
 {
-
+     
     width: 60%;
+    opacity: 1;
     /*
     right: 550px;
     height: 250px;
@@ -213,8 +226,12 @@ h2, .beneficios
     position: absolute;
     top: 2280px;
     border: 1px solid green;*/
-   
-     
+       
+}
+
+.beneficios-img:hover
+{
+    opacity: 0.3;
 }
 
 .video
@@ -244,3 +261,27 @@ footer
   margin-top: 20px;
 
 }
+
+@media screen and (max-width: 400px)
+{
+    .caixa, .sobre, .conteudo-beneficios, .video, .mapa-img
+    {
+        width: auto;
+    }
+
+    h1
+    {
+        text-align: center;
+    }
+    
+    nav
+    {
+        position: static;
+    }
+
+    .lista, .beneficios-img
+    {
+        width: 100%;
+    }
+}
+
