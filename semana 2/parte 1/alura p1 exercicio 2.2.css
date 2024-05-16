@@ -109,10 +109,11 @@ body{
     body 
     {
         display: block;
-    };
+    }
 
     .apresentacao_imagem
     {
-        padding-top: 50px;
+        width: 200px;
+        padding: 40px;
     }
 }
