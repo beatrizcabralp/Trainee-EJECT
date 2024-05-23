@@ -1,0 +1,515 @@
+body
+{
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    justify-content: center;
+}
+
+header
+{
+    text-align: center;
+}
+
+.titulo
+{
+    padding-bottom: 1.5625rem;
+    padding-top: 0.625rem;
+    
+}
+
+nav
+{
+    text-align: center;
+}
+
+nav li
+{
+    display: inline;
+    
+}
+
+header a
+{
+    color: black;
+    font-size: 0.9375rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 10px solid white;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+header a:hover
+{
+    border: 5px solid #900;
+    background: white;
+}
+
+
+.links
+{
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.bloco-principal
+{
+   padding-top: 4.375rem;
+   align-items: center;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 4.375rem;
+   
+   
+}
+
+.bloco-1
+{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    text-align: right;
+    
+    
+}
+
+
+.traco-vermelho
+{
+    width: 50px;
+    color:#ee2211;
+    position: relative;
+    border-top: 4px solid #ee2211;
+    display: flex;
+    top: 25px;
+    left: 470px;
+    z-index: 1;
+}
+
+.bloco-1 h1
+{
+    padding-top: 2.5rem;
+    padding-right: 1.875rem;
+}
+
+.bloco-1 p
+{
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-right: 1.875rem;
+    padding-left: 2.5rem;
+}
+
+.botao 
+{
+    padding-right: 1.875rem;
+    padding-top: 0.625rem;
+}
+
+.botao-cadastro
+{
+    background-color: #ee2211;
+    color: white;
+    border-radius: 4px;
+    border: 15px solid #ee2211;
+    font-size: 0.9375rem;
+    align-items: baseline;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.botao a:hover
+{
+
+    background-color: #900;
+    border: 15px solid #900;
+    
+}
+
+
+.bloco-2
+{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    top: 5px;
+    
+   
+}
+
+
+.img-bike
+{
+    position: relative;
+    top: -5px;
+    width: 100%;
+    height: 100%;
+   
+    
+    
+}
+
+.bloco-3
+{
+    
+    width: 500px;
+    height: 400px;
+    background-image: url("./imagens/onda.svg");
+    
+     
+}
+
+.vantagens
+{
+    color: #c6c6c6; 
+    text-align: right;
+    padding-top: 5rem;
+    padding-right: 1.875rem;
+    font-size: 3.4375rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+    
+}
+
+
+
+.bloco-4
+{
+    background-color: white;
+    width: 500px;
+    height: 400px;
+}
+
+.bloco4-2
+{
+    padding-top: 2.5rem;
+    padding-left: 2.1875rem;
+    padding-right: 2.1875rem;
+}
+
+.informacoes1
+{
+    padding-top: 0.625rem;
+    text-align: left;
+    background-color: #f7f7f7;
+}
+
+.informacoes1 img
+{
+    padding-left: 4.375rem;
+}
+
+.informacoes1 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.informacoes1 a:hover
+{
+    border-left:5px solid #900;
+    display: block;
+    position: relative;
+    top: -10px;
+}
+
+.informacoes1 h3
+{
+    padding-left: 0.3125rem;
+    display: inline;
+    position: relative;
+    top: -6px;
+}
+
+.informacoes1 p
+{
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding-left: 6.5625rem;
+    padding-right: 5rem;
+    position: relative;
+    top: -15px;
+}
+
+.informacoes2
+{
+    
+    text-align: left;
+}
+
+.informacoes2 img
+{
+    padding-left: 4.375rem;
+}
+
+.informacoes2 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.informacoes2 a:hover
+{
+    border-left: 5px solid #900;
+    display: block;
+    position: relative;
+    top: -10px;
+}
+
+.informacoes2 h3
+{
+    padding-left: 0.3125rem;
+    display: inline;
+    position: relative;
+    top: -6px;
+    
+}
+
+.informacoes2 p
+{
+    
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding-left: 6.5625rem;
+    padding-right: 5rem;
+    position: relative;
+    top: -15px;
+    
+}
+
+.informacoes3
+{
+    padding-top: 10px;
+    background-color: #f7f7f7;
+    text-align: left;
+}
+
+.informacoes3 img
+{
+    padding-left: 4.375rem;
+}
+
+.informacoes3 a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.informacoes3 a:hover
+{
+    border-left:5px solid #900;
+    display: block;
+    position: relative;
+    top: -10px;
+}
+
+.informacoes3 h3
+{
+    padding-left: 0.3125rem;
+    display: inline;
+    position: relative;
+    top: -6px;
+    
+}
+
+.informacoes3 p
+{
+    
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding-left: 6.5625rem;
+    padding-right: 5rem;
+    position: relative;
+    top: -15px;
+    
+}
+
+footer
+{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+     
+}
+
+
+
+@media screen and (max-width: 700px)
+{
+    body 
+    {
+        justify-content: center;
+        
+        align-items: center;
+        
+    }
+
+    header
+    {
+       justify-content: left;
+       width: 100%;
+       max-width: 500px;
+       text-align: left;
+       height: 100%;
+       
+    }
+    .titulo
+   {
+    padding-bottom: 25px;
+    padding-top: 10px;
+    text-align: center;
+
+   }
+    a
+    {
+        color: black;
+        font-size: 15px;
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 1px solid white;
+        background: white;
+        text-align: left;
+        
+        
+    }
+
+
+    .links
+    {
+      margin-right: 2px;
+      font-weight: 500;
+      width: 110%;
+      max-width: 500px;
+      margin-left: -60px;
+     
+      
+    }
+
+    
+    .bloco-principal
+    {
+        padding-top: 70px;
+        justify-content: center;
+        text-align: center;
+        display: block;
+        
+   
+    }
+
+    .bloco-1
+    {
+      width: 100%;
+      max-width: 500px;
+      height: 100%;
+      background-color: white;
+      text-align: right;
+    
+    
+     }
+
+     .botao 
+     {
+      padding-right: 1.875rem;
+      padding-top: 0.625rem;
+      width: 100%;
+      max-width: 70px;
+      
+     }
+
+     .traco-vermelho
+    {
+      
+      color:#ee2211;
+      position: static;
+      border-top: 4px solid #ee2211;
+      display: flex;
+      top: 500px;
+      left: 550px;
+      z-index: 1;
+     
+      }
+
+     .bloco-2
+    {
+        width: 100%;
+        max-width: 500px;
+        height: 100%;
+        background-color: white;
+        text-align: right;
+    
+    
+     }
+
+     .bloco-3
+    {
+        width: 100%;
+        max-width: 500px; 
+        height: 100%;
+        background-color: white;
+        text-align: right;
+    
+    
+     }
+
+     .vantagens
+      {
+       color: #c6c6c6; 
+       text-align: right;
+       padding-top: 80px;
+       padding-right: 30px;
+       font-size: 25px;
+       text-transform: uppercase;
+       font-weight: 600;
+       position: static;
+      }
+
+      .vantagens2
+      {
+        position: relative;
+        text-align: right;
+        justify-content: center;
+        top: -80px;
+      }
+
+     .bloco-4
+      {
+        width: 100%;
+        max-width: 500px;
+        height: 100%;
+        background-color: white;
+        text-align: right;
+    
+      }
+      footer
+      {
+       background-color: white;
+       width: 100%;
+       max-width: 100%;
+       justify-content: center;
+       height: 70px;
+       text-align: center;
+       padding-top: 35px;
+       font-size: 20px;
+       font-weight: 500;
+    }
+
+    footer p 
+    {
+        background-color: white;
+        width: 100%;
+       max-width: 100%;
+    }
+}
+
+
