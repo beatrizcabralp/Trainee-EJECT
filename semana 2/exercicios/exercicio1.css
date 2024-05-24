@@ -442,7 +442,15 @@ footer
       padding-top: 0.625rem;
       width: 100%;
       max-width: 70px;
+      padding-left: 340px;
       
+     }
+
+     .botao-cadastro
+     {
+        text-align: center;
+        width: 100px;
+        
      }
 
      .traco-vermelho
@@ -465,7 +473,8 @@ footer
         height: 100%;
         background-color: white;
         text-align: right;
-    
+        top:-50px;
+        position: relative;
     
      }
 
@@ -476,20 +485,21 @@ footer
         height: 100%;
         background-color: white;
         text-align: right;
+       
+
     
     
      }
 
      .vantagens
       {
-       color: #c6c6c6; 
-       text-align: right;
-       padding-top: 80px;
-       padding-right: 30px;
-       font-size: 25px;
-       text-transform: uppercase;
-       font-weight: 600;
-       position: static;
+        color: #c6c6c6; 
+        text-align: right;
+        padding-top: 5rem;
+        padding-right: 1.875rem;
+        font-size: 3.4375rem;
+        text-transform: uppercase;
+        font-weight: 600;
       }
 
       .vantagens2
@@ -507,8 +517,88 @@ footer
         height: 100%;
         background-color: white;
         text-align: right;
-    
+        position: relative;
+        top: -50px;
+        padding-bottom: 4rem;
+        
+        
       }
+
+      .bloco4-2
+      {
+        padding-top: 3rem;
+        
+      }
+
+      .informacoes1 h3
+      {
+        background-color: #f7f7f7;
+      }
+
+      .informacoes1 p 
+      {
+        background-color: #f7f7f7;
+      }
+
+      .informacoes1 img 
+      {
+        background-color: #f7f7f7;
+      }
+
+      .informacoes1 a 
+      {
+        background-color: #f7f7f7;
+      }
+
+      .informacoes1
+      {
+        background-color: white;
+      }
+
+      .informacoes2 h3
+      {
+        background-color: white;
+      }
+      .informacoes2 p
+      {
+        background-color: white;
+      }
+
+      .informacoes2 img
+      {
+        background-color: white;
+      }
+      .informacoes2 a 
+      {
+        background-color: white;
+      }
+
+      .informacoes3 h3
+      {
+        background-color: #f7f7f7;
+      }
+
+      .informacoes3 p 
+      {
+        background-color: #f7f7f7;
+      }
+
+      .informacoes3 img 
+      {
+        background-color: #f7f7f7;
+      }
+
+      .informacoes3 a 
+      {
+        background-color: #f7f7f7;
+      }
+
+      .informacoes3
+      {
+        background-color: white;
+      }
+
+      
       footer
       {
        background-color: white;
