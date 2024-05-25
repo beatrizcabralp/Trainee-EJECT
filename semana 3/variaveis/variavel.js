@@ -47,3 +47,33 @@ var flores;
 var paises;
 var musicas;
 var comidas;
+
+//************Tipos de variáveis************* */
+
+var nomee = 'Anya'; /*string*/
+
+var numero = 22; /*number*/
+
+var verdade = true; /*boolean*/
+
+var indefinida; /*true or false*/
+
+var comida = null; /*null*/
+
+var simbolo = Symbol(); /*symbl*/
+
+var objeto = {}; /*object*/
+
+/********verificando o tipo de dado */
+
+var nomeee = 'André';
+console.log(typeof nomeee);
+// retorna string
+
+//juntar variaveis sem quebrar demais
+
+var gols = 1000;
+var frase1 = 'Romário fez ' + gols + ' gols';
+var frase2 = `Romário fez ${gols} gols`; // Utilizando Template String
+
+console.log(frase2);
