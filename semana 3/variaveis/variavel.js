@@ -77,3 +77,58 @@ var frase1 = 'Romário fez ' + gols + ' gols';
 var frase2 = `Romário fez ${gols} gols`; // Utilizando Template String
 
 console.log(frase2);
+
+//incremento
+
+var incremento = 2;
+var decremento = 2;
+var stringenum = '2';
+
+console.log(++incremento);
+
+console.log(--decremento);
+
+console.log(stringenum);
+
+console.log(stringenum + incremento);
+
+console.log(+stringenum);
+
+console.log(-stringenum + incremento);
+
+// Qual o resultado da seguinte expressão?
+
+var total = 10 + 5 * 2 / 2 + 20;
+console.log(total);
+
+// Crie duas expressões que retornem NaN
+var um = 1;
+var dois = 2;
+var seg = 's';
+
+console.log(um + seg);
+console.log(dois+seg);
+
+
+// Somar a string '200' com o número 50 e retornar 250
+
+var duzentos = 200;
+var cinquenta = 50;
+
+console.log(duzentos+cinquenta);
+
+// Incremente o número 5 e retorne o seu valor incrementado
+
+var cinco = 5;
+
+console.log(++cinco);
+
+// Como dividir o peso por 2?
+var oitenta = '80';
+var unidade = 'kg';
+console.log(+oitenta);
+var por2 = oitenta/2;
+var peso = por2 + unidade; // '80kg'
+
+console.log(peso);
+
